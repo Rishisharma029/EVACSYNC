@@ -15,7 +15,7 @@ Security is a top priority for EvalSync. If you discover a vulnerability or a se
 
 **Do not open a public issue.**
 
-Instead, please email the security team at **security@evalsync.local** (or the email associated with the maintainer). 
+Instead, please email the security team at **i.rishisharma2007@gmail.com**.
 
 Please include:
 * A description of the vulnerability.
