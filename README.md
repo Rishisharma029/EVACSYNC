@@ -1,4 +1,19 @@
-# 🚀 EvalSync — Smart Queue-Based Submission Management System
+<div align="center">
+
+# 🚀 EvalSync
+
+_**"Building the Future One Line of Code"**_
+
+<br>
+
+[![Live Demo](https://img.shields.io/badge/LIVE%20DEMO-RISHISHARMA029.GITHUB.IO%2FPORTFOLIO-6EE7B7?style=for-the-badge&logo=github&logoColor=white&labelColor=525252)](https://rishisharma029.github.io/portfolio)
+[![GitHub](https://img.shields.io/badge/GITHUB-RISHISHARMA029-FFFFFF?style=for-the-badge&logo=github&logoColor=black&labelColor=525252)](https://github.com/Rishisharma029)
+
+[![Email](https://img.shields.io/badge/EMAIL-I.RISHISHARMA2007@GMAIL.COM-6EE7B7?style=for-the-badge&logo=minutemailer&logoColor=white&labelColor=525252)](mailto:I.RISHISHARMA2007@gmail.com)
+
+</div>
+
+<br>
 
 ## 📌 Overview
 
