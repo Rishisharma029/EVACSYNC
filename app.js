@@ -157,8 +157,8 @@ function notify(title, msg, type = 'info', duration = 4000) {
   el.innerHTML = `
     <span class="notif-icon">${icons[type] || icons.info}</span>
     <div class="notif-body">
-      <span class="notif-title">${title}</span>
-      <span class="notif-msg">${msg}</span>
+      <span class="notif-title">${DOMPurify.sanitize(title)}</span>
+      <span class="notif-msg">${DOMPurify.sanitize(msg)}</span>
     </div>
     <button class="notif-close" onclick="this.parentElement.remove()">✕</button>
   `;
@@ -191,7 +191,7 @@ function termLog(level, msg) {
   if (!terminal) return;
   const line = document.createElement('div');
   line.className = 'term-line';
-  line.innerHTML = `<span class="tl-time">${formatTime()}</span><span class="tl-level ${level}">${level.padEnd(7)}</span><span class="tl-msg">${msg}</span>`;
+  line.innerHTML = `<span class="tl-time">${formatTime()}</span><span class="tl-level ${level}">${level.padEnd(7)}</span><span class="tl-msg">${DOMPurify.sanitize(msg)}</span>`;
   terminal.appendChild(line);
   if (terminal.children.length > LOG_CONFIG.maxTerminal) terminal.firstChild.remove();
   terminal.scrollTop = terminal.scrollHeight;
@@ -406,7 +406,7 @@ function initUploadZone() {
     card.innerHTML = `
       <span class="uf-icon">${icons[ext] || '📎'}</span>
       <div class="uf-info">
-        <span class="uf-name">${file.name}</span>
+        <span class="uf-name">${DOMPurify.sanitize(file.name)}</span>
         <span class="uf-size">${formatBytes(file.size)} · ${ext.toUpperCase()}</span>
       </div>
       <button class="uf-remove" title="Remove">✕</button>
