@@ -6,6 +6,7 @@ _**"Building the Future One Line of Code"**_
 
 <br>
 
+[![Live Demo](https://img.shields.io/badge/LIVE%20DEMO-RISHISHARMA029.GITHUB.IO%2FEVACSYNC-6EE7B7?style=for-the-badge&logo=github&logoColor=white&labelColor=525252)](https://rishisharma029.github.io/EVACSYNC/)
 [![Repository](https://img.shields.io/badge/REPOSITORY-GITHUB.COM%2FRISHISHARMA029%2FEVACSYNC-6EE7B7?style=for-the-badge&logo=github&logoColor=white&labelColor=525252)](https://github.com/Rishisharma029/EVACSYNC)
 [![GitHub](https://img.shields.io/badge/GITHUB-RISHISHARMA029-FFFFFF?style=for-the-badge&logo=github&logoColor=black&labelColor=525252)](https://github.com/Rishisharma029)
 
